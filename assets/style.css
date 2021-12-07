@@ -2,8 +2,25 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+.container{
+    margin: 25px auto 25px auto;
+}
+
+.img-thumbnail{
+    padding: 1rem;
+}
+/*.btn{
+    position:absolute;
+    right:10%;
+    bottom:10%;
+}*/
+
+.card-text{
+    max-width:80%;
+}
+
 .callout-container{
-    background: url(../images/background.jpg) no-repeat bottom right fixed; 
+    background: url(../images/home_background.jpg) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -85,6 +102,7 @@ body{
 
 .jumbotron{
     background-color: transparent;
+    max-width: 1000px;
 }
 
 .jumbotron-header{
@@ -97,6 +115,10 @@ body{
     margin: 25px 0;
     color: #d1d1d1;
 }
+
+/*Text*/
+
+
 
 /*Buttons*/
 
